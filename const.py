@@ -1,4 +1,4 @@
-W, H = 1280, 720
+W, H = 1920, 1080
 
 COLOR_MAPS = {
     "red": (255, 0, 0),
@@ -30,5 +30,5 @@ COLOR_MAPS = {
     "darkgray": (169, 169, 169),
 }
 
-FONT_SIZE = 50
 FONT = "Arial"
+FONT_SIZE = 50
