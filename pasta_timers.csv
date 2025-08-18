@@ -1,0 +1,27 @@
+name,total_video_length,prepare_duration,interval_list,intervals_repeat
+Spaghetti_Normal_AlDente,480,0,"[('Spaghetti - al dente','darkyellow',480)]",1
+Spaghetti_Normal_WellDone,600,0,"[('Spaghetti - well done','darkyellow',600)]",1
+Spaghetti_Wholemeal_AlDente,500,0,"[('Spaghetti wholemeal - al dente','darkyellow',500)]",1
+Spaghetti_Wholemeal_WellDone,620,0,"[('Spaghetti wholemeal - well done','darkyellow',620)]",1
+Penne_Normal_AlDente,420,0,"[('Penne - al dente','darkyellow',420)]",1
+Penne_Normal_WellDone,540,0,"[('Penne - well done','darkyellow',540)]",1
+Penne_Wholemeal_AlDente,440,0,"[('Penne wholemeal - al dente','darkyellow',440)]",1
+Penne_Wholemeal_WellDone,560,0,"[('Penne wholemeal - well done','darkyellow',560)]",1
+Fusilli_Normal_AlDente,480,0,"[('Fusilli - al dente','darkyellow',480)]",1
+Fusilli_Normal_WellDone,600,0,"[('Fusilli - well done','darkyellow',600)]",1
+Fusilli_Wholemeal_AlDente,500,0,"[('Fusilli wholemeal - al dente','darkyellow',500)]",1
+Fusilli_Wholemeal_WellDone,620,0,"[('Fusilli wholemeal - well done','darkyellow',620)]",1
+Farfalle_Normal_AlDente,480,0,"[('Farfalle - al dente','darkyellow',480)]",1
+Farfalle_Normal_WellDone,600,0,"[('Farfalle - well done','darkyellow',600)]",1
+Farfalle_Wholemeal_AlDente,500,0,"[('Farfalle wholemeal - al dente','darkyellow',500)]",1
+Farfalle_Wholemeal_WellDone,620,0,"[('Farfalle wholemeal - well done','darkyellow',620)]",1
+Linguine_Normal_AlDente,420,0,"[('Linguine - al dente','darkyellow',420)]",1
+Linguine_Normal_WellDone,540,0,"[('Linguine - well done','darkyellow',540)]",1
+Linguine_Wholemeal_AlDente,440,0,"[('Linguine wholemeal - al dente','darkyellow',440)]",1
+Linguine_Wholemeal_WellDone,560,0,"[('Linguine wholemeal - well done','darkyellow',560)]",1
+Tagliatelle_Normal_AlDente,480,0,"[('Tagliatelle - al dente','darkyellow',480)]",1
+Tagliatelle_Normal_WellDone,600,0,"[('Tagliatelle - well done','darkyellow',600)]",1
+Tagliatelle_Wholemeal_AlDente,500,0,"[('Tagliatelle wholemeal - al dente','darkyellow',500)]",1
+Tagliatelle_Wholemeal_WellDone,620,0,"[('Tagliatelle wholemeal - well done','darkyellow',620)]",1
+Gnocchi_Normal_AlDente,120,0,"[('Gnocchi - al dente','green',120)]",1
+Gnocchi_Normal_WellDone,180,0,"[('Gnocchi - well done','green',180)]",1

@@ -1,0 +1,3 @@
+name,total_video_length,prepare_duration,interval_list,intervals_repeat
+Spaghetti_Normal_AlDente,30,0,"[('COOK','green',30)]",1
+EMOM_5min,60,10,"[('WORK','green',12)]",5
