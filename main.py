@@ -1,10 +1,19 @@
 import ast
+import shutil
+import os
+
 from py_vid_gen import generate_timer_video
 
-TEST = False  # Set to False to enable batch CSV-based generation
+
+CSVS = [
+    # ("test_timers.csv", "pasta"),
+    # ("workout_timers.csv", 'workout'),
+    ("pasta_timers.csv", "pasta")
+    # "white_noise_sleep_timers.csv
+]
 
 
-def batch_generate_from_csv(csv_path="timers.csv"):
+def batch_generate_from_csv(csv_path="test_timers.csv", move_folder=None):
     """
     Generate videos from a CSV file.
     Expects interval_list as Python-style list: "[('WORK','green',60), ...]"
@@ -28,10 +37,14 @@ def batch_generate_from_csv(csv_path="timers.csv"):
                 interval_list=interval_list,
             )
             print("Video generated:", row["name"])
+            if move_folder:
+                video_name = to_video_name(row["name"]) + ".mp4"
+                dest_path = os.path.join(os.getcwd(), "output", move_folder, video_name)
+                shutil.move(os.path.join(os.getcwd(), video_name), dest_path)
+                print(f"Moved {video_name} to {move_folder}")
 
 
 if __name__ == "__main__":
-    if TEST:
-        generate_timer_video()
-    else:
-        batch_generate_from_csv()
+    for csv_name, move_folder in CSVS:
+        print(f"Processing {csv_name}...")
+        batch_generate_from_csv(csv_name, move_folder)
